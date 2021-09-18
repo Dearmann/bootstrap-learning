@@ -30,15 +30,50 @@ body {
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 80%;
 }
 
 .phone-image {
     transform: rotate(25deg);
-    width: 53%;
+    width: 60%;
+    position: absolute;
 }
 
 .download-button {
     margin: 5% 3% 5% 0;
+}
+
+#features {
+    padding: 5% 15%;
+    /* position: relative;
+    bottom: 200px; */
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 7%;
+}
+
+.features-icon {
+    color: #ef8172;
+    /* font-size: 4rem; */
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+.feature-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.feature-description {
+    color: #8f8f8f;
+    /* margin: auto;
+    width: 60%; */
 }
