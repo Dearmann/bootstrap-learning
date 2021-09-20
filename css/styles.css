@@ -123,6 +123,31 @@ h3 {
     padding: 3% 2%;
 }
 
+#cta {
+    background-color: #ff4c68;
+    color: #ffffff;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.cta-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+#footer {
+    padding: 5% 15%;
+    /* font-weight: bold; */
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.social-icon {
+    padding: 30px 15px;
+}
+
 @media (max-width: 1050px)
 {
     #header {
